@@ -70,12 +70,20 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba( 255, 253, 253, 0.3 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5.5px );
-  -webkit-backdrop-filter: blur( 5.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background: rgba(0, 0, 0, 0.2);
+border-radius: 16px;
+box-shadow: inset 0 0 15px #ffffff;
+backdrop-filter: blur(8.9px);
+-webkit-backdrop-filter: blur(8.9px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+ }
+
+ .visitor-count:hover {
+  background: rgba(96, 96, 96, 0.3);
+  box-shadow: inset 0 0 15px #ffffff;
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
  }
 
  .resume-btn {
@@ -83,7 +91,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(21, 255, 0, 0.546);
+  background: rgba(21, 255, 0, 0.715);
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 5.5px );
   -webkit-backdrop-filter: blur( 5.5px );
@@ -91,6 +99,14 @@ main {
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   text-decoration: none;
   color: black;
+ }
+
+ .resume-btn:hover {
+  background: rgb(23, 255, 2);
+  box-shadow: inset 0 0 15px #ffffff;
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
  }
 
 .contact { grid-area: 2 / 8 / 3 / 10; }
@@ -123,8 +139,16 @@ main {
 padding: 25px;
 background: rgba(0, 0, 0, 0.2);
 border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+box-shadow: inset 0 0 15px #ffffff;
 backdrop-filter: blur(8.9px);
--webkit-backdrop-filter: blur(8.7px);
+-webkit-backdrop-filter: blur(8.9px);
 border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dash-box:hover {
+  background: rgba(96, 96, 96, 0.3);
+  box-shadow: inset 0 0 15px #ffffff;
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
