@@ -16,7 +16,7 @@
   <main>
     <!-- add hidden class to background for light mode -->
     <div class="background"></div>
-    <div class="page-container">
+    <div class="page-container" data-tilt data-tilt-max="0.2">
       <div class="sidebar">
         <div class="image-holder">
 
@@ -30,17 +30,19 @@
       </div>
       <div class="page-content">
         <div class="home">
-          <h1>Xavier Hillman</h1>
-          <h3>Full Stack Web Developer</h3>
+          <div class="hero-heading">
+            <h1>Xavier Hillman</h1>
+            <h3>Full Stack Web Developer</h3>
+          </div>
           <div class="page-icons">
-            <div class="page-icon">
-              About
+            <div class="page-icon about-icon" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+              <p>About</p>
             </div>
-            <div class="page-icon">
-              Projects
+            <div class="page-icon projects-icon" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+              <p>Projects</p>
             </div>
-            <div class="page-icon">
-              Contact
+            <div class="page-icon contact-icon" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+              <p>Contact</p>
             </div>
           </div>
         </div>
