@@ -112,6 +112,7 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 16px;
+  background: linear-gradient(45deg, rgba(30, 144, 255, 0.1), rgba(255, 105, 180, 0.1), rgba(50, 205, 50, 0.1));
   box-shadow: inset 0 0 8px #ffffff,
   2px 2px 8px 2px rgba(252, 252, 252, 0.1);
   backdrop-filter: blur(8.9px);
@@ -125,7 +126,75 @@ main {
 }
 
 .about {
-  padding: 10%;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-content {
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.about-content h2 {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.about-content h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.skill-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.cta-items {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-item {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: inset 0 0 8px #ffffff,
+  2px 2px 8px 2px rgba(252, 252, 252, 0.1);
+  backdrop-filter: blur(8.9px);
+  -webkit-backdrop-filter: blur(8.9px);
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.book-call-btn {
+  background: linear-gradient(45deg, rgba(30, 144, 255, 0.15), rgba(50, 205, 50, 0.15));
+}
+
+.resume-btn {
+  background: linear-gradient(45deg,rgba(255, 105, 180, 0.15), rgba(50, 205, 50, 0.15));
 }
 
 .hidden {
