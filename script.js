@@ -16,25 +16,37 @@ const setPage = (page) => {
   page.style.display = 'block';
 }
 
+const setNav = (nav) => {
+  homeNav.classList.remove('selected-nav');
+  aboutNav.classList.remove('selected-nav');
+  projectsNav.classList.remove('selected-nav');
+  contactNav.classList.remove('selected-nav');
+  nav.classList.add('selected-nav');
+}
+
 //To Do: save current page
 
 
 homeNav.addEventListener('click', () => {
   setPage(homePage);
+  setNav(homeNav);
   currentPage = homePage;
 });
 
 aboutNav.addEventListener('click', () => {
   setPage(aboutPage);
+  setNav(aboutNav);
   currentPage = aboutPage;
 });
 
 projectsNav.addEventListener('click', () => {
   setPage(projectsPage);
+  setNav(projectsNav);
   currentPage = projectsPage;
 });
 
 contactNav.addEventListener('click', () => {
   setPage(contactPage);
+  setNav(contactNav);
   currentPage = contactPage;
 });
