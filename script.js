@@ -16,6 +16,9 @@ const setPage = (page) => {
   page.style.display = 'block';
 }
 
+//To Do: save current page
+
+
 homeNav.addEventListener('click', () => {
   setPage(homePage);
   currentPage = homePage;
