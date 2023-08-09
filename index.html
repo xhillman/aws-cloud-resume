@@ -14,71 +14,138 @@
 
 <body>
   <main>
-    <iframe src='https://my.spline.design/untitled-585860ae23694bf469b1d14ed3ed8d54/' frameborder='0' width='100%' height='100%' class="background"></iframe>
-    <div class="dashboard-container">
+    <!-- add hidden class to background for light mode -->
+    <div class="background"></div>
+    <div class="page-container" data-tilt data-tilt-max="0.2">
       <div class="sidebar">
-        <div class="img-container">
-          <img src="" alt="" class="profile-img">
-        </div>
+        <div class="image-holder">
 
+        </div>
+        <ul class="navbar">
+          <li class="home-nav nav-item selected-nav">Home</li>
+          <li class="about-nav nav-item">About</li>
+          <li class="projects-nav nav-item">Projects</li>
+          <li class="contact-nav nav-item">Contact</li>
+        </ul>
       </div>
-      <div class="dashboard">
-        <div class="about dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
-          <h3>About</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et convallis nisl, in consequat
-            ligula. Curabitur sit amet nisl justo. Praesent fermentum quis ex id hendrerit. Nam lobortis lobortis libero
-            quis volutpat. Aenean ut placerat eros. Curabitur neque leo, lacinia sit amet nulla in, lobortis mattis
-            felis.</p>
-        </div>
-        <div class="experience dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
-          <h3>Experience</h3>
-          <p>
-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et convallis nisl, in consequat
-            ligula. Curabitur sit amet nisl justo. Praesent fermentum quis ex id hendrerit. Nam lobortis lobortis libero
-            quis volutpat.
-          </p>
-        </div>
-        <div class="skills dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
-          <h3>Skills</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et convallis nisl, in consequat
-            ligula.</p>
-        </div>
-        <div class="education dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
-          <h3>Education</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et convallis nisl, in consequat
-            ligula.
-          </p>
-        </div>
-        <div class="dynamic-section">
-          <p class="visitor-count" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5"><span>You are visitor #0000</span></p>
-
-          <a href="https://google.com" target="_blank" class="resume-btn" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
-            <h3>Resume</h3>
-          </a>
-        </div>
-
-        <div class="contact dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
-          <h3>Contact</h3>
-        </div>
-        <div class="projects dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="3">
-          <h3>Projects</h3>
-          <div class="projects-container">
-            <div class="project-card"></div>
-            <div class="project-card"></div>
-            <div class="project-card"></div>
+      <div class="page-content">
+        <div class="home">
+          <div class="hero-heading">
+            <h1>Xavier Hillman</h1>
+            <h3>Full Stack Web Developer</h3>
           </div>
+          <div class="page-icons">
+            <div class="page-icon about-icon" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+              <p>About</p>
+            </div>
+            <div class="page-icon projects-icon" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+              <p>Projects</p>
+            </div>
+            <div class="page-icon contact-icon" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+              <p>Contact</p>
+            </div>
+          </div>
+        </div>
+        <div class="about hidden">
+          <div class="about-content">
+            <h2>About</h2>
+            <h3>I'm Xavier. A software developer, indie hacker and prompt engineer.</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores eaque recusandae, aspernatur impedit
+              quidem consequatur! Asperiores neque placeat ratione architecto, perspiciatis eaque at sint ipsam commodi.
+              Itaque autem ut iusto.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus accusantium laboriosam quod error
+              quia, esse sit est excepturi aliquid rem doloribus officia maiores non id maxime necessitatibus ad!
+              Temporibus, asperiores.</p>
+            <div class="skill-icons">
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+              <div class="skill-icon">skill</div>
+            </div>
+          </div>
+          <div class="cta-items">
+            <a href="https://google.com" target="_blank" class="cta-item book-call-btn" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">Book a Call</a>
+            <a href="https://google.com" target="_blank" class="cta-item resume-btn" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">Resume</a>
+          </div>
+        </div>
+        <div class="projects hidden">
+          <div class="project-card">project</div>
+          <div class="project-card">project</div>
+          <div class="project-card">project</div>
+          <div class="project-card">project</div>
+          <div class="project-card">project</div>
+          <div class="project-card">project</div>
+        </div>
+        <div class="contact hidden">
+          <div class="contact-form">
 
+          </div>
+          <div class="cta-items">
+            <a href="https://google.com" target="_blank" class="cta-item book-call-btn">Book a Call</a>
+            <a href="https://google.com" target="_blank" class="cta-item resume-btn">Resume</a>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- <iframe src='https://my.spline.design/untitled-585860ae23694bf469b1d14ed3ed8d54/' frameborder='0' width='100%'
+      height='100%' class="background"></iframe>
+    <div class="dashboard">
+      <div class="sidebar" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5"></div>
+      <div class="about dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+        <h3>About</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et convallis nisl, in consequat
+          ligula. Curabitur sit amet nisl justo. Praesent fermentum quis ex id hendrerit. Nam lobortis lobortis
+          libero
+          quis volutpat. Aenean ut placerat eros. Curabitur neque leo, lacinia sit amet nulla in, lobortis mattis
+          felis.</p>
+      </div>
+      <div class="experience dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+        <h3>Experience</h3>
+        <p>
+
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et convallis nisl, in consequat
+          ligula. Curabitur sit amet nisl justo. Praesent fermentum quis ex id hendrerit. Nam lobortis lobortis libero
+          quis volutpat.
+        </p>
+      </div>
+      <div class="projects dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="3">
+        <h3>Projects</h3>
+        <div class="projects-container">
+          <div class="project-card"></div>
+          <div class="project-card"></div>
+          <div class="project-card"></div>
+        </div>
+
+      </div>
+      <div class="skills dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+        <h3>Skills</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et convallis nisl, in consequat
+          ligula.</p>
+      </div>
+      <div class="contact dash-box" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5">
+        <h3>Contact</h3>
+      </div>
+      <p class="visitor-count" data-tilt data-tilt-glare data-tilt-max-glare="0.5" data-tilt-max="5"><span>You are
+          visitor #0000</span></p>
+      <a href="https://google.com" target="_blank" class="resume-btn" data-tilt data-tilt-glare
+        data-tilt-max-glare="0.2" data-tilt-max="5">
+        <h3>Resume</h3>
+      </a>
+    </div> -->
   </main>
   <footer>
 
   </footer>
+  <script type="text/javascript" src="script.js"></script>
   <script type="text/javascript" src="vanilla-tilt.js"></script>
 </body>
 
